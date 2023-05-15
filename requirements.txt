@@ -1,0 +1,8 @@
+opencv-python==4.7.0.72
+matplotlib
+joblib==1.2.0
+numpy==1.23.5
+pandas==2.0.1
+preprocessing==0.1.13
+scikit_learn==1.2.2
+tensorflow_cpu==2.12.0
