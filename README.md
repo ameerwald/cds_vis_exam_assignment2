@@ -1,7 +1,7 @@
 
 # Assignment 2 - Classification benchmarks with Logistic Regression and Neural Networks
 
-This assignment can be found at my github [repo](https://github.com/ameerwald/cds_lang_exam_assignment2).
+This assignment can be found at my github [repo](https://github.com/ameerwald/cds_vis_exam_assignment2).
 
 This assignment asked for two different scripts training a logistic regression classifier and a neural network classifer all on the Cifar10 dataset. This was to be done using ```scikit-learn```. We needed to do the following:
 
