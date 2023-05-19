@@ -10,7 +10,7 @@ This assignment can be found at my github [repo](https://github.com/ameerwald/cd
 The data for this assignment is from the Cifar 10 dataset which is a collection of 60000 32x32 images with 10 classes. Read more about it at this [link](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 ## Assignment description 
-In this assignment we had to make two different scripts training a logistic regression classifier and a neural network classifer all on the Cifar10 dataset. This was to be done using ```scikit-learn```. We needed to do the following:
+In this assignment we had to make two different scripts training a logistic regression classifier and a neural network classifier all on the Cifar10 dataset. This was to be done using ```scikit-learn```. We needed to do the following:
 
 - Load the Cifar10 dataset
 - Preprocess the data (e.g. greyscale, reshape)
@@ -24,7 +24,7 @@ In this assignment we had to make two different scripts training a logistic regr
 | Data      | Empty, data is imported in the script 
 | Models  | Saved models for the logistic regression and neural network classifiers      
 | Out  | Classification Reports, one for each classifier    
-| Src  | Py scripts, one for each classifer and one for preprocessing the data    
+| Src  | Py scripts, one for each classifier and one for preprocessing the data    
 | Utils  | Preprocessing script with utility functions
 
 ## To run the scripts 
@@ -45,4 +45,4 @@ bash run.sh
 This has been tested on an ubuntu system on ucloud and therefore could have issues when run another way.
 
 ## Discussion of Results 
-Based on the classification reports for each classifier in the ```out``` folder, the neural network classifier slighly out performs the logitical regression classifier with 35% accurary over 31%. It is also clear that both classifiers poorly perform with the cat images compared to the other categories. 
+Based on the classification reports for each classifier in the ```out``` folder, the neural network classifier slightly out performs the logistic regression classifier with 35% accuracy over 31%. It is also clear that both classifiers poorly perform with the cat images compared to the other categories. 
